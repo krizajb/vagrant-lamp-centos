@@ -22,7 +22,7 @@ $ vagrant plugin install vagrant-vbguest
 
 Download/Clone the repo:
 - Download [`zip`](../../archive/master.zip)
-- Clone `$ git clone https://github.com/krizajb/vagrant-centos7.4-web.git .`
+- Clone `$ git clone https://github.com/krizajb/vagrant-lamp-centos.git .`
 
 Create and configure LAMP guest machine:
 ```bash
