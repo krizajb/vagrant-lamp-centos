@@ -10,6 +10,7 @@ cp /opt/provision/httpd/conf/httpd.conf /etc/httpd/conf/
 
 echo "virtual host setup"
 cp -f /opt/provision/httpd/conf.d/test.devel.conf /etc/httpd/conf.d/
+cp -f /opt/provision/httpd/conf.d/webroot.conf /etc/httpd/conf.d/
 
 echo "disabling firewall"
 systemctl stop firewalld
