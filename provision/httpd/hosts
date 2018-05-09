@@ -1,0 +1,7 @@
+# Add the following lines into your hosts file
+
+10.10.0.20 webroot
+10.10.0.20 test.devel
+10.10.0.20 craftcms
+10.10.0.20 craftcmsfoo
+10.10.0.20 craftcmsbar
