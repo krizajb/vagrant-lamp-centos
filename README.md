@@ -6,7 +6,8 @@
 - MySQL 5.7.22
 - PHP 7.2.5
 - phpMyAdmin 4.4.15.10 
-- craftcms3 3.0.5
+- craftcms 3.0.5
+- composer 1.6.5
 
 > Software versions can be as stated or higher.
 
@@ -68,7 +69,7 @@ Craft3 pre-setup sites:
 
 > Those sites are not configured in craft3, they serve only as an example but can also be used.
 
-# Username/Password:
+## Access:
 VM:
 - username: root
 - password: vagrant
@@ -78,4 +79,4 @@ Craft3:
 - password: admin3
 
 phpMyAdmin, MySQL:
-- passwordless access 
+- username: root
