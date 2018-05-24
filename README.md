@@ -82,7 +82,6 @@ phpMyAdmin, MySQL:
 - username: root
 
 ## Acknowledgment
----------------
 This is a fork of the following repos:
 - https://github.com/oppara/vagrant-centos7
 - https://github.com/ytake/gardening
