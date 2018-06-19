@@ -8,6 +8,8 @@
 - phpMyAdmin 4.4.15.10 
 - craftcms 3.0.5
 - composer 1.6.5
+- python 3.6.5
+- Django 2.0.6
 
 > Software versions can be as stated or higher.
 
