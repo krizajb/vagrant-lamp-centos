@@ -53,4 +53,9 @@ Vagrant.configure("2") do |config|
     s.path = "provision/craftcms.sh"
   end
 
+  config.vm.provision "shell" do |s|
+    s.name = "install django"
+    s.path = "provision/django.sh"
+  end
+
 end
