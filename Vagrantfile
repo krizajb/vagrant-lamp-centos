@@ -29,31 +29,6 @@ Vagrant.configure("2") do |config|
   end
 
   config.vm.provision "shell" do |s|
-    s.name = "install mysql"
-    s.path = "provision/mysql.sh"
-  end
-
-  config.vm.provision "shell" do |s|
-    s.name = "install php"
-    s.path = "provision/php.sh"
-  end
-
-  config.vm.provision "shell" do |s|
-    s.name = "install httpd"
-    s.path = "provision/httpd.sh"
-  end
-
-  config.vm.provision "shell" do |s|
-    s.name = "install phpmyadmin"
-    s.path = "provision/phpmyadmin.sh"
-  end
-
-  config.vm.provision "shell" do |s|
-    s.name = "install craftcms"
-    s.path = "provision/craftcms.sh"
-  end
-
-  config.vm.provision "shell" do |s|
     s.name = "install django"
     s.path = "provision/django.sh"
   end

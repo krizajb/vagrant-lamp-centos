@@ -11,10 +11,14 @@ ln -fs /usr/bin/pip3.6 /usr/bin/pip3
 
 pip3 install --upgrade pip
 
-#yum -y install mod_wsgi
-#pip3 install virtualenv
-
-#mkdir /opt/web-root/django
-#virtualenv /opt/web-root/django/virtualenv
-#source /opt/web-root/django/virtualenv/bin/activate
+echo "installing django "
 pip3 install django
+
+echo "installing crypto api"
+pip3 install hitbtc
+pip3 install btfxwss
+
+echo "installing git"
+yum -y install git
+
+git clone https://rialto:Twb5W3xQhLcDbQQKJAswV9Ec@gitlab.com/krizajb/rialto-challange.git /opt/webroot/rialtochallange
