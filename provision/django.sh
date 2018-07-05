@@ -17,6 +17,7 @@ pip3 install django
 echo "installing crypto api"
 pip3 install hitbtc
 pip3 install btfxwss
+pip3 install krakenex
 
 echo "installing git"
 yum -y install git
